@@ -1,11 +1,11 @@
 {
   "repo": {
-    "timestamp": 1753635632000,
+    "timestamp": 1753637149000,
     "version": 20002,
-    "name": "My First F-Droid Repo Demo",
+    "name": "Spooky Services & Partners",
     "icon": "icon.png",
-    "address": "https://MyFirstFDroidRepo.org/fdroid/repo",
-    "description": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of f-droid.org using the tools on https://gitlab.com/fdroid."
+    "address": "https://fdroid.spookysrv.com/fdroid/repo",
+    "description": "F-Droid repo for apps by Spooky Services and partners. Apps in this repo may not be open source!"
   },
   "requests": {
     "install": [],
