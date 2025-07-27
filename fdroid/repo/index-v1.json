@@ -5,7 +5,7 @@
     "name": "Spooky Services & Partners",
     "icon": "icon.png",
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "description": "F-Droid repo for apps by Spooky Services and partners"
+    "description": "F-Droid repo for apps by Spooky Services and partners. Apps in this repo may not be open source!"
   },
   "requests": {
     "install": [],
