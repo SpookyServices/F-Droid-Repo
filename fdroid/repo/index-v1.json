@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1753681547000,
+    "timestamp": 1753682681000,
     "version": 20002,
     "name": "Spooky Services & Partners",
     "icon": "icon.png",
@@ -26,6 +26,7 @@
       "license": "Unknown",
       "name": "Flow by Spooky Services",
       "sourceCode": "https://github.com/SpookyServices/Flow",
+      "summary": "Seamless notes and links sharing across devices",
       "added": 1753676541000,
       "packageName": "com.spookysrv.flow",
       "lastUpdated": 1753676541000,

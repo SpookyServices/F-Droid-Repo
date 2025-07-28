@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753681547000,
+    "timestamp": 1753682681000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -56,6 +56,9 @@
         "authorName": "SpookyServices",
         "name": {
           "en-US": "Flow by Spooky Services"
+        },
+        "summary": {
+          "en-US": "Seamless notes and links sharing across devices"
         },
         "description": {
           "en-US": "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n"
