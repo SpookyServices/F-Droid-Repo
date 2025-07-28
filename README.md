@@ -8,8 +8,6 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
 | --- | --- | --- | --- |
 | <a href="https://github.com/SpookyServices/Flow"><img src="fdroid/repo/icons/" alt="Flow by Spooky Services icon" width="36px" height="36px"></a> | [**Flow by Spooky Services**](https://github.com/SpookyServices/Flow) |  | 0.0.1 (2) |
 | <a href=""><img src="fdroid/repo/icons/" alt="icon icon" width="36px" height="36px"></a> | [**icon**]() |  |  (2147483647) |
-| <a href=""><img src="fdroid/repo/icons/io.github.xarantolus.notality.10.png" alt="Notality icon" width="36px" height="36px"></a> | [**Notality**]() |  |  (2147483647) |
-| <a href=""><img src="fdroid/repo/icons/" alt="Rock It! icon" width="36px" height="36px"></a> | [**Rock It!**]() |  |  (2147483647) |
 <!-- end apps table -->
 
 ### How to use
