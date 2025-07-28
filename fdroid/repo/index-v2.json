@@ -9,12 +9,12 @@
     "icon": {
       "en-US": {
         "name": "/icons/icon.png",
-        "sha256": "6694801ca33341d46fb66baa1f6895b3eec217bdd927e22f2e4798ad341f2627",
-        "size": 745
+        "sha256": "f032ebb405ed3c1d046637b548d7fb4a28128c28c4aa160ccdb378d93d000550",
+        "size": 13096
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753685353000,
+    "timestamp": 1753686135000,
     "categories": {
       "Connectivity": {
         "name": {
