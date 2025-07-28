@@ -10,9 +10,9 @@ spookyservicesflow:
     - Connectivity
 
   anti_features:
-    # - App is not open source
-    # - NonFreeNet
-    # - NonFreeAssets
-    # - NonFreeDep
+    - App is not open source
+    - NonFreeNet
+    - NonFreeAssets
+    - NonFreeDep
     - UpstreamNonFree
 
