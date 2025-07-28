@@ -2,9 +2,6 @@ AntiFeatures:
     - App itself is not open source
     - NonFreeNet
     - NonFreeAssets
-    - NonFreeAdd
-    - UpstreamNonFree
-    - NoSourceSince
 AuthorName: SpookyServices
 Categories:
     - Connectivity

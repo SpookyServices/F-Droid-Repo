@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1753699992000,
+    "timestamp": 1753704373000,
     "version": 20002,
     "name": "Spooky Services & Partners",
     "icon": "icon.png",
@@ -15,11 +15,8 @@
     {
       "antiFeatures": [
         "App itself is not open source",
-        "NoSourceSince",
-        "NonFreeAdd",
         "NonFreeAssets",
-        "NonFreeNet",
-        "UpstreamNonFree"
+        "NonFreeNet"
       ],
       "authorName": "SpookyServices",
       "categories": [

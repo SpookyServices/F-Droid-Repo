@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753699992000,
+    "timestamp": 1753704373000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -104,11 +104,8 @@
           },
           "antiFeatures": {
             "App itself is not open source": {},
-            "NoSourceSince": {},
-            "NonFreeAdd": {},
             "NonFreeAssets": {},
-            "NonFreeNet": {},
-            "UpstreamNonFree": {}
+            "NonFreeNet": {}
           }
         },
         "0688785a5cabdfa855ae64fea4bedaaab40fc29069ca8563910b267954d77424": {
@@ -147,11 +144,8 @@
           },
           "antiFeatures": {
             "App itself is not open source": {},
-            "NoSourceSince": {},
-            "NonFreeAdd": {},
             "NonFreeAssets": {},
-            "NonFreeNet": {},
-            "UpstreamNonFree": {}
+            "NonFreeNet": {}
           }
         }
       }
