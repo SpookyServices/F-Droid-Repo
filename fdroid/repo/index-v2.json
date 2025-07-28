@@ -14,26 +14,11 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753676545000,
+    "timestamp": 1753677641000,
     "categories": {
       "Connectivity": {
         "name": {
           "en-US": "Connectivity"
-        }
-      },
-      "Internet": {
-        "name": {
-          "en-US": "Internet"
-        }
-      },
-      "Science & Education": {
-        "name": {
-          "en-US": "Science & Education"
-        }
-      },
-      "Writing": {
-        "name": {
-          "en-US": "Writing"
         }
       },
       "fdroid": {
@@ -58,6 +43,13 @@
         },
         "description": {
           "en-US": "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.spookysrv.flow/en-US/icon_6kOTWrvOz85GXevYHFJnNHyJRYnG8nLY9lMzkI_mjJI=.png",
+            "sha256": "ea43935abbcecfce465debd81c5267347c894589c6f272d8f65333908fe68c92",
+            "size": 78506
+          }
         },
         "preferredSigner": "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266"
       },
@@ -97,7 +89,7 @@
             ]
           },
           "antiFeatures": {
-            "NonFreeNet,NoSourceSince,NonFreeAssets": {}
+            "NonFreeNet,NonFreeAssets,NonFreeDep,UpstreamNonFree": {}
           }
         }
       }
@@ -132,11 +124,9 @@
       "metadata": {
         "added": 1753632427000,
         "categories": [
-          "Writing"
+          "fdroid"
         ],
         "lastUpdated": 1753632434000,
-        "license": "MIT",
-        "sourceCode": "https://github.com/xarantolus/notality",
         "screenshots": {
           "phone": {
             "en-US": [
@@ -163,15 +153,8 @@
             ]
           }
         },
-        "authorName": "xarantolus",
         "name": {
           "en-US": "Notality"
-        },
-        "summary": {
-          "en-US": "A very simple note taking app for Android"
-        },
-        "description": {
-          "en-US": "Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.\n\n<b>Features</b>\n\n- Create, edit, delete and reorder notes\n- Automatic dark/light mode depending on the system-wide setting\n- Import/Export your notes to save them externally\n- Localization for English and German\n"
         },
         "icon": {
           "en-US": {
@@ -579,12 +562,9 @@
       "metadata": {
         "added": 1753632435000,
         "categories": [
-          "Internet",
-          "Science & Education"
+          "fdroid"
         ],
         "lastUpdated": 1753632446000,
-        "license": "MIT",
-        "sourceCode": "https://github.com/xarantolus/rockit",
         "screenshots": {
           "phone": {
             "en-US": [
@@ -651,15 +631,8 @@
             ]
           }
         },
-        "authorName": "xarantolus",
         "name": {
           "en-US": "Rock It!"
-        },
-        "summary": {
-          "en-US": "Rock It! is an Android app that helps you stay informed on all things space"
-        },
-        "description": {
-          "en-US": "Rock It! helps you stay informed on all things space.\nIt displays upcoming rocket launches and current space news curated by <a href=\"https://thespacedevs.com/\">The Space Devs</a>.\n\n<b>Features</b>\n\n- List upcoming launches and events (e.g. space station activity)\n- Show launch/event details and a countdown (including the date and time in your local timezone)\n- List latest space news articles\n- Subscribe to launches or events to receive notifications before the start or when times are updated\n- Search future events and launches\n- No internet? No problem! The app caches offline content for a few days and updates it when connected to the internet\n\nThe app connects to the Launch Library and Spaceflight News API to get information about launches.\nAdditionality, it might connect to other hosts (e.g. YouTube) to receive video and article thumbnails.\nSince none of these services are free software, it's labeled with \"NonFreeNet\".\n"
         },
         "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
       },
@@ -717,9 +690,6 @@
                 "name": "io.github.xarantolus.rockit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "3e4398a041e11ccc0fe3d1684a36675a821705c6be0c10b56220ba19f44b7acb": {
@@ -772,9 +742,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "33867c58a05b19fb07074095e9c4fd59a066f37ec13c8f9648a12aa0edf03aba": {
@@ -827,9 +794,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "4ac68bb79a0eb2739a263166d40ac5c612a82e61eb180d07813e43dce778678a": {
@@ -882,9 +846,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "871e49d2362b02ae6dbca7a66770ceece1e10568a94d0f730a656b9ecb040892": {
@@ -937,9 +898,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "ebc0050a4bd19212b462537c91087329024ecd0fe56a0b8b78086ea6e71119e9": {
@@ -992,9 +950,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "edc66ead58e6af93f2d498506f1a6f52c33e442773e64c220925b02d4ad13b00": {
@@ -1047,9 +1002,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "f0786af8d11787f1620ba535e7c5d961ce2c0f5f199af177b3027ce57a1692ea": {
@@ -1102,9 +1054,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "9bc10b1ddb81571e50cd5eaf274d88817c34d9191091735044a9173055e9030d": {
@@ -1157,9 +1106,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "496971c9fc5d6ebc58478ee10b85f245760a741282eb2d505ed3dd4d00993e9a": {
@@ -1212,9 +1158,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "35debc9d1ac17f9c8f41cf6ae6297ca9db26a1e7c4a2e7c668cd0d7d24d3f589": {
@@ -1267,9 +1210,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "ce683294036f352af0d6140ec51ced4354fa1478439a7233cd6b45764c9cccbe": {
@@ -1322,9 +1262,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "6f724f9687164a595c72659224ff3960bc02a4923087cf1dfd20a2e6d6556cc0": {
@@ -1377,9 +1314,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "a42e3d5b92b16e3e5fccd7f8ff138d540c077670185d4332225c1a14d1188dbd": {
@@ -1432,9 +1366,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "98993a98a0d33c7bfc6fcf3591fe429b3e1defb04e76818f0aeb1b9924d986cf": {
@@ -1487,9 +1418,6 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "8db540af4776df573bace68f584c11286377e6cf9c78db059b240661408db8f4": {
@@ -1521,9 +1449,6 @@
                 "name": "android.permission.INTERNET"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "adcbb0bc0f8baf30610a8880f0e7f35d0604b11f4e1c70581bdd12528db2283b": {
@@ -1555,9 +1480,6 @@
                 "name": "android.permission.INTERNET"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "6c689e2f8565005a38edba5a34418ff3a3f1189743c2a378b4adb20352cda805": {
@@ -1589,9 +1511,6 @@
                 "name": "android.permission.INTERNET"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "adc95cfd4983231083e8118b2bc9149712f7f9c844281426b1108c0575112adf": {
@@ -1623,9 +1542,6 @@
                 "name": "android.permission.INTERNET"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "7022ad0d02e05da6915b6ab51a81b9c82118ce6862b9b90f6dadbe152ff13c6b": {
@@ -1657,9 +1573,6 @@
                 "name": "android.permission.INTERNET"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
         "97bf39c135daa186c0d38465d2d2ac1174d2da3fcbbf41e592024315cf55c19a": {
@@ -1691,9 +1604,6 @@
                 "name": "android.permission.INTERNET"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         }
       }

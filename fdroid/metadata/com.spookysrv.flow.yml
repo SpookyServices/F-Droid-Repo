@@ -1,4 +1,4 @@
-AntiFeatures: NonFreeNet,NoSourceSince,NonFreeAssets
+AntiFeatures: NonFreeNet,NonFreeAssets,NonFreeDep,UpstreamNonFree
 AuthorName: SpookyServices
 Categories:
     - Connectivity
