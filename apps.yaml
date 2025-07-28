@@ -16,3 +16,16 @@ spookyservicesflow:
     - NonFreeDep
     - UpstreamNonFree
 
+
+spookyservicesflowa:
+  git: https://github.com/SpookyServices/Flow
+  name: "Flow"
+  description: |
+    idk what is this
+  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+  # you can use any name here, but you should look at the existing categories first
+  categories: 
+    - Connectivity
+
+  anti_features:
+    - App is not open source
