@@ -266,7 +266,7 @@ func main() {
 			}
 
 			if len(apkInfo.AntiFeatures) != 0 {
-				meta["AntiFeatures"] = strings.Join(apkInfo.AntiFeatures, ",")
+				meta["AntiFeatures"] = apkInfo.AntiFeatures
 			}
 
 			meta["CurrentVersion"] = latestPackage.VersionName
