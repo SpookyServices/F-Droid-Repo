@@ -1,4 +1,8 @@
 AntiFeatures:
+    - App is not open source
+    - NonFreeNet
+    - NonFreeAssets
+    - NonFreeDep
     - UpstreamNonFree
 AuthorName: SpookyServices
 Categories:

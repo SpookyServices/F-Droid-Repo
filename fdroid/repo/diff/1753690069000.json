@@ -1,0 +1,19 @@
+{
+  "repo": {
+    "timestamp": 1753690074000
+  },
+  "packages": {
+    "com.spookysrv.flow": {
+      "versions": {
+        "0688785a5cabdfa855ae64fea4bedaaab40fc29069ca8563910b267954d77424": {
+          "antiFeatures": {
+            "App is not open source": {},
+            "NonFreeAssets": {},
+            "NonFreeDep": {},
+            "NonFreeNet": {}
+          }
+        }
+      }
+    }
+  }
+}
