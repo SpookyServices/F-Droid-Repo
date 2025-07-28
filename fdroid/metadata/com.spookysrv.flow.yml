@@ -1,4 +1,5 @@
-AntiFeatures: UpstreamNonFree
+AntiFeatures:
+    - UpstreamNonFree
 AuthorName: SpookyServices
 Categories:
     - Connectivity
