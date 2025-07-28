@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1753695018000,
+    "timestamp": 1753699992000,
     "version": 20002,
     "name": "Spooky Services & Partners",
     "icon": "icon.png",
@@ -25,8 +25,8 @@
       "categories": [
         "Connectivity"
       ],
-      "suggestedVersionName": "0.0.1",
-      "suggestedVersionCode": "2",
+      "suggestedVersionName": "0.0.2",
+      "suggestedVersionCode": "4",
       "description": "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n",
       "license": "Unknown",
       "name": "Flow by Spooky Services",
@@ -34,7 +34,7 @@
       "summary": "Seamless notes and links sharing across devices",
       "added": 1753676541000,
       "packageName": "com.spookysrv.flow",
-      "lastUpdated": 1753676541000,
+      "lastUpdated": 1753699987000,
       "localized": {
         "en-US": {
           "icon": "icon_6kOTWrvOz85GXevYHFJnNHyJRYnG8nLY9lMzkI_mjJI=.png",
@@ -42,13 +42,43 @@
             "1.jpg",
             "2.jpg"
           ],
-          "whatsNew": "First version:\n\n- Authenticates with Spooky Services\n- Send text messages between devices"
+          "whatsNew": "Actually send logout request to server (logout page)"
         }
       }
     }
   ],
   "packages": {
     "com.spookysrv.flow": [
+      {
+        "added": 1753699987000,
+        "apkName": "spookyservicesflow_0.0.2.apk",
+        "hash": "f7a13e7a5ce9455dfe26e881d4bcf426c89c322351bd199150200a239a2a286e",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.spookysrv.flow",
+        "sig": "5f6c3d51483d6397d52a691cc26283af",
+        "signer": "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266",
+        "size": 24620099,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.spookysrv.flow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "0.0.2"
+      },
       {
         "added": 1753676541000,
         "apkName": "spookyservicesflow_0.0.1.apk",
