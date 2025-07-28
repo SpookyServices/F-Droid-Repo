@@ -14,16 +14,11 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753684162000,
+    "timestamp": 1753685353000,
     "categories": {
       "Connectivity": {
         "name": {
           "en-US": "Connectivity"
-        }
-      },
-      "fdroid": {
-        "name": {
-          "en-US": "fdroid"
         }
       }
     }
@@ -109,32 +104,6 @@
           },
           "antiFeatures": {
             "App is not open source,NonFreeNet,NonFreeAssets,NonFreeDep,UpstreamNonFree": {}
-          }
-        }
-      }
-    },
-    "f032ebb405ed3c1d046637b548d7fb4a28128c28c4aa160ccdb378d93d000550": {
-      "metadata": {
-        "added": 1753632235000,
-        "categories": [
-          "fdroid"
-        ],
-        "lastUpdated": 1753632235000,
-        "name": {
-          "en-US": "icon"
-        }
-      },
-      "versions": {
-        "f032ebb405ed3c1d046637b548d7fb4a28128c28c4aa160ccdb378d93d000550": {
-          "added": 1753632235000,
-          "file": {
-            "name": "/icon.png",
-            "sha256": "f032ebb405ed3c1d046637b548d7fb4a28128c28c4aa160ccdb378d93d000550",
-            "size": 13096
-          },
-          "manifest": {
-            "versionName": "f032ebb",
-            "versionCode": 0
           }
         }
       }
