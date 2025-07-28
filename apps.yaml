@@ -11,5 +11,7 @@ spookyservicesflow:
 
   anti_features:
     - NonFreeNet
-    - NoSourceSince
     - NonFreeAssets
+    - NonFreeDep
+    - UpstreamNonFree
+
