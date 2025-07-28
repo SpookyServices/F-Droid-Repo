@@ -1,4 +1,7 @@
 name: Generate F-Droid repo
+concurrency:
+  group: "fdroidrepobuild"
+  cancel-in-progress: true
 
 on:
   push:
