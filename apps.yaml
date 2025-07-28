@@ -9,10 +9,12 @@ spookyservicesflow:
   categories: 
     - Connectivity
 
+# https://f-droid.org/docs/Anti-Features/
   anti_features:
-    - App is not open source
+    - App itself is not open source
     - NonFreeNet
     - NonFreeAssets
-    - NonFreeDep
+    - NonFreeAdd
     - UpstreamNonFree
+    - NoSourceSince
 
