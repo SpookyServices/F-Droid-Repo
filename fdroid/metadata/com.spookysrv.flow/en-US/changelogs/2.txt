@@ -1,0 +1,4 @@
+First version:
+
+- Authenticates with Spooky Services
+- Send text messages between devices

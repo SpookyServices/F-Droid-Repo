@@ -1,0 +1,33 @@
+{
+  "repo": {
+    "timestamp": 1753676545000,
+    "categories": {
+      "Connectivity": {
+        "name": {
+          "en-US": "Connectivity"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.spookysrv.flow": {
+      "metadata": {
+        "categories": [
+          "Connectivity"
+        ],
+        "sourceCode": "https://github.com/SpookyServices/Flow",
+        "authorName": "SpookyServices",
+        "description": {
+          "en-US": "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n"
+        }
+      },
+      "versions": {
+        "0688785a5cabdfa855ae64fea4bedaaab40fc29069ca8563910b267954d77424": {
+          "antiFeatures": {
+            "NonFreeNet,NoSourceSince,NonFreeAssets": {}
+          }
+        }
+      }
+    }
+  }
+}

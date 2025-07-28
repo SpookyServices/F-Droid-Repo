@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1753675253000,
+    "timestamp": 1753676545000,
     "version": 20002,
     "name": "Spooky Services & Partners",
     "icon": "icon.png",
@@ -12,6 +12,29 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "antiFeatures": [
+        "NonFreeNet,NoSourceSince,NonFreeAssets"
+      ],
+      "authorName": "SpookyServices",
+      "categories": [
+        "Connectivity"
+      ],
+      "suggestedVersionName": "0.0.1",
+      "suggestedVersionCode": "2",
+      "description": "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n",
+      "license": "Unknown",
+      "name": "Flow by Spooky Services",
+      "sourceCode": "https://github.com/SpookyServices/Flow",
+      "added": 1753676541000,
+      "packageName": "com.spookysrv.flow",
+      "lastUpdated": 1753676541000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "First version:\n\n- Authenticates with Spooky Services\n- Send text messages between devices"
+        }
+      }
+    },
     {
       "categories": [
         "fdroid"
@@ -92,6 +115,38 @@
     }
   ],
   "packages": {
+    "com.spookysrv.flow": [
+      {
+        "added": 1753676541000,
+        "apkName": "spookyservicesflow_0.0.1.apk",
+        "hash": "0688785a5cabdfa855ae64fea4bedaaab40fc29069ca8563910b267954d77424",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.spookysrv.flow",
+        "sig": "5f6c3d51483d6397d52a691cc26283af",
+        "signer": "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266",
+        "size": 24616294,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.spookysrv.flow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "0.0.1"
+      }
+    ],
     "f032ebb405ed3c1d046637b548d7fb4a28128c28c4aa160ccdb378d93d000550": [
       {
         "added": 1753632235000,

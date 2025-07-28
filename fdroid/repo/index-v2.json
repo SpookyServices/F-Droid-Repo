@@ -14,8 +14,13 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753675253000,
+    "timestamp": 1753676545000,
     "categories": {
+      "Connectivity": {
+        "name": {
+          "en-US": "Connectivity"
+        }
+      },
       "Internet": {
         "name": {
           "en-US": "Internet"
@@ -39,6 +44,64 @@
     }
   },
   "packages": {
+    "com.spookysrv.flow": {
+      "metadata": {
+        "added": 1753676541000,
+        "categories": [
+          "Connectivity"
+        ],
+        "lastUpdated": 1753676541000,
+        "sourceCode": "https://github.com/SpookyServices/Flow",
+        "authorName": "SpookyServices",
+        "name": {
+          "en-US": "Flow by Spooky Services"
+        },
+        "description": {
+          "en-US": "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n"
+        },
+        "preferredSigner": "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266"
+      },
+      "versions": {
+        "0688785a5cabdfa855ae64fea4bedaaab40fc29069ca8563910b267954d77424": {
+          "added": 1753676541000,
+          "file": {
+            "name": "/spookyservicesflow_0.0.1.apk",
+            "sha256": "0688785a5cabdfa855ae64fea4bedaaab40fc29069ca8563910b267954d77424",
+            "size": 24616294
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.spookysrv.flow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet,NoSourceSince,NonFreeAssets": {}
+          }
+        }
+      }
+    },
     "f032ebb405ed3c1d046637b548d7fb4a28128c28c4aa160ccdb378d93d000550": {
       "metadata": {
         "added": 1753632235000,
