@@ -6,7 +6,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| <a href=""><img src="fdroid/repo/icons/" alt="Flow by Spooky Services icon" width="36px" height="36px"></a> | [**Flow by Spooky Services**]() | Seamless notes and links sharing across devices | 0.0.3 (5) |
+| <a href=""><img src="fdroid/repo/icons/" alt="Flow icon" width="36px" height="36px"></a> | [**Flow**]() | Seamless notes and links sharing across devices | 0.0.3 (5) |
 <!-- end apps table -->
 
 ### How to use

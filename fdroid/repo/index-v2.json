@@ -9,12 +9,12 @@
     "icon": {
       "en-US": {
         "name": "/icons/icon.png",
-        "sha256": "f032ebb405ed3c1d046637b548d7fb4a28128c28c4aa160ccdb378d93d000550",
-        "size": 13096
+        "sha256": "eb631fff022380d315b457d30c255b0a341f918ffe5f0da0c5bbe0d83000207a",
+        "size": 57190
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753778783000,
+    "timestamp": 1753808557000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -51,7 +51,7 @@
         },
         "authorName": "Spooky Services",
         "name": {
-          "en-US": "Flow by Spooky Services"
+          "en-US": "Flow"
         },
         "summary": {
           "en-US": "Seamless notes and links sharing across devices"
