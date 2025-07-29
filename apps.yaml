@@ -1,6 +1,8 @@
 spookyservicesflow:
   git: https://github.com/SpookyServices/Flow
   name: "Flow by Spooky Services"
+  author: Spooky Services
+  website: https://flow.spookysrv.com/
   description: |
     Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. 
 
@@ -14,4 +16,7 @@ spookyservicesflow:
     - App itself is not open source
     - NonFreeNet
     - NonFreeAssets
+  is_open_source: "false"
+
+  
 

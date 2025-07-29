@@ -252,7 +252,11 @@ func main() {
 				fn = apkInfo.Name()
 			}
 			setNonEmpty(meta, "Name", fn)
-			// setNonEmpty(meta, "SourceCode", apkInfo.GitURL)
+			if (apkInfo.IsOpenSource == "true")  {
+				setNonEmpty(meta, "SourceCode", apkInfo.GitURL)
+			}
+			setNonEmpty(meta, "Changelog", apkInfo.GitURL + "/releases")
+			setNonEmpty(meta, "WebSite", apkInfo.Website)
 			setNonEmpty(meta, "License", apkInfo.License)
 			setNonEmpty(meta, "Description", apkInfo.Description)
 

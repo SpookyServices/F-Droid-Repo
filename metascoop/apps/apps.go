@@ -11,6 +11,8 @@ import (
 
 type AppInfo struct {
 	GitURL  string `yaml:"git"`
+	IsOpenSource string `yaml:"is_open_source"`
+
 	Summary string `yaml:"summary"`
 
 	AuthorName string `yaml:"author"`
@@ -18,6 +20,8 @@ type AppInfo struct {
 
 	FriendlyName string `yaml:"name"`
 	keyName      string
+
+	Website string `yaml:"website"`
 
 	Description string `yaml:"description"`
 
