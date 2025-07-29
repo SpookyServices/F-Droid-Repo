@@ -1,0 +1,1 @@
+- Fix chat box getting cut off

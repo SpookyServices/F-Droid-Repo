@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753776147000,
+    "timestamp": 1753778783000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -31,7 +31,7 @@
           "Connectivity"
         ],
         "changelog": "https://github.com/SpookyServices/Flow/releases",
-        "lastUpdated": 1753699987000,
+        "lastUpdated": 1753778779000,
         "webSite": "https://flow.spookysrv.com/",
         "screenshots": {
           "phone": {
@@ -69,6 +69,46 @@
         "preferredSigner": "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266"
       },
       "versions": {
+        "5a74f863ac06cbc148e4d33d29b86663e8424f198d015f6a5ef81f5546b8053d": {
+          "added": 1753778779000,
+          "file": {
+            "name": "/spookyservicesflow_0.0.3.apk",
+            "sha256": "5a74f863ac06cbc148e4d33d29b86663e8424f198d015f6a5ef81f5546b8053d",
+            "size": 24620131
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.3",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.spookysrv.flow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "App itself is not open source": {},
+            "NonFreeAssets": {},
+            "NonFreeNet": {}
+          }
+        },
         "f7a13e7a5ce9455dfe26e881d4bcf426c89c322351bd199150200a239a2a286e": {
           "added": 1753699987000,
           "file": {

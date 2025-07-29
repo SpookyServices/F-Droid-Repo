@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1753776147000,
+    "timestamp": 1753778783000,
     "version": 20002,
     "name": "Spooky Services & Partners",
     "icon": "icon.png",
@@ -23,8 +23,8 @@
         "Connectivity"
       ],
       "changelog": "https://github.com/SpookyServices/Flow/releases",
-      "suggestedVersionName": "0.0.2",
-      "suggestedVersionCode": "4",
+      "suggestedVersionName": "0.0.3",
+      "suggestedVersionCode": "5",
       "description": "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n",
       "license": "Unknown",
       "name": "Flow by Spooky Services",
@@ -32,7 +32,7 @@
       "webSite": "https://flow.spookysrv.com/",
       "added": 1753676541000,
       "packageName": "com.spookysrv.flow",
-      "lastUpdated": 1753699987000,
+      "lastUpdated": 1753778779000,
       "localized": {
         "en-US": {
           "icon": "icon_6kOTWrvOz85GXevYHFJnNHyJRYnG8nLY9lMzkI_mjJI=.png",
@@ -40,13 +40,43 @@
             "1.jpg",
             "2.jpg"
           ],
-          "whatsNew": "Actually send logout request to server (logout page)"
+          "whatsNew": "- Fix chat box getting cut off"
         }
       }
     }
   ],
   "packages": {
     "com.spookysrv.flow": [
+      {
+        "added": 1753778779000,
+        "apkName": "spookyservicesflow_0.0.3.apk",
+        "hash": "5a74f863ac06cbc148e4d33d29b86663e8424f198d015f6a5ef81f5546b8053d",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.spookysrv.flow",
+        "sig": "5f6c3d51483d6397d52a691cc26283af",
+        "signer": "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266",
+        "size": 24620131,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.spookysrv.flow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "0.0.3"
+      },
       {
         "added": 1753699987000,
         "apkName": "spookyservicesflow_0.0.2.apk",
