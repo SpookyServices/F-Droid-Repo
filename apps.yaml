@@ -1,6 +1,6 @@
 spookyservicesflow:
   git: https://github.com/SpookyServices/Flow
-  name: "Flow by Spooky Services"
+  name: "Flow"
   author: Spooky Services
   website: https://flow.spookysrv.com/
   description: |
