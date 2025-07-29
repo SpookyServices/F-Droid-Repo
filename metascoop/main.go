@@ -101,9 +101,15 @@ func main() {
 		}
 
 		log.Printf("Received %d releases", len(releases))
-
+		
+		releaseCount := 0
 		for _, release := range releases {
-			fmt.Printf("::group::Release %s\n", release.GetTagName())
+		    fmt.Printf("::group::Release %s\n", release.GetTagName())
+			if releaseCount > 3 {
+		       fmt.Printf("Releases > 3, Skipping")
+      		   break
+  			}
+			releaseCount++
 			func() {
 				defer fmt.Println("::endgroup::")
 
