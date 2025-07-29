@@ -2,9 +2,10 @@ AntiFeatures:
     - App itself is not open source
     - NonFreeNet
     - NonFreeAssets
-AuthorName: SpookyServices
+AuthorName: Spooky Services
 Categories:
     - Connectivity
+Changelog: https://github.com/SpookyServices/Flow/releases
 CurrentVersion: 0.0.2
 CurrentVersionCode: 4
 Description: "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n"
@@ -12,4 +13,4 @@ IssueTracker: ""
 Name: Flow by Spooky Services
 SourceCode: https://github.com/SpookyServices/Flow
 Summary: Seamless notes and links sharing across devices
-WebSite: ""
+WebSite: https://flow.spookysrv.com/

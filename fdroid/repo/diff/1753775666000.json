@@ -1,0 +1,14 @@
+{
+  "repo": {
+    "timestamp": 1753775672000
+  },
+  "packages": {
+    "com.spookysrv.flow": {
+      "metadata": {
+        "changelog": "https://github.com/SpookyServices/Flow/releases",
+        "webSite": "https://flow.spookysrv.com/",
+        "authorName": "Spooky Services"
+      }
+    }
+  }
+}
