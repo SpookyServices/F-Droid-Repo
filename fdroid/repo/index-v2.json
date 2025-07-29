@@ -4,7 +4,7 @@
       "en-US": "Spooky Services & Partners"
     },
     "description": {
-      "en-US": "Repository for apps by Spooky Services and partners. This is the official way to obtain android apps made by Spooky Services. \nImportant Note: * YOU ARE LEAVING THE FOSS AREA * Apps in this repo may not be open source, but any closed-source/proprietary apps will be labeled as \"App itself is not open source\" in the anti-features list of the app, along with any anti-features that app may have.  This repository is neither affiliated with nor endorsed by F-Droid"
+      "en-US": "Repository for apps by Spooky Services and partners. This is the official way to obtain android apps made by Spooky Services. Apps in this repo may not be open source, proprietary apps will be properly labeled via the Anti-Feature \"App itself is not open source.\""
     },
     "icon": {
       "en-US": {
@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753761750000,
+    "timestamp": 1753772984000,
     "categories": {
       "Connectivity": {
         "name": {
