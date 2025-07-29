@@ -252,7 +252,7 @@ func main() {
 				fn = apkInfo.Name()
 			}
 			setNonEmpty(meta, "Name", fn)
-			setNonEmpty(meta, "SourceCode", apkInfo.GitURL)
+			// setNonEmpty(meta, "SourceCode", apkInfo.GitURL)
 			setNonEmpty(meta, "License", apkInfo.License)
 			setNonEmpty(meta, "Description", apkInfo.Description)
 
