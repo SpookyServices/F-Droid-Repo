@@ -1,0 +1,32 @@
+{
+  "repo": {
+    "timestamp": 1753864880000
+  },
+  "packages": {
+    "com.spookysrv.flow": {
+      "metadata": {
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.spookysrv.flow/en-US/phoneScreenshots/1.jpg",
+                "sha256": "a3845a4377b0328a39bd41402430b7e7c2c334565cbcb0372d584843176cab8a",
+                "size": 44913
+              },
+              {
+                "name": "/com.spookysrv.flow/en-US/phoneScreenshots/2.jpg",
+                "sha256": "bb1dc20f54347a048ac58082bdf781f58403c59a355a8725bd3b9c7156eb56d8",
+                "size": 51042
+              }
+            ]
+          }
+        }
+      },
+      "versions": {
+        "25ab2e42315d2ab4ff1f4e80b59ad49d7e956e91c8b51ff70a79c7850f8c686f": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

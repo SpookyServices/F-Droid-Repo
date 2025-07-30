@@ -1,0 +1,3 @@
+### This is a critical update that affects core functionalities on all platforms! Please update ASAP.
+- Fix web message sending not clearing messages & not auto updating
+- set Theme Mode according to preference (defaulted to system after restart previously)

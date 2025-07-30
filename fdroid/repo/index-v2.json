@@ -9,12 +9,12 @@
     "icon": {
       "en-US": {
         "name": "/icons/icon.png",
-        "sha256": "eb631fff022380d315b457d30c255b0a341f918ffe5f0da0c5bbe0d83000207a",
-        "size": 57190
+        "sha256": "6ea55bfa259256fcf8464e07df71871d5a4f48bc5719e90cf62493dad6d84bd8",
+        "size": 54262
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753854114000,
+    "timestamp": 1753864880000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -31,7 +31,7 @@
           "Connectivity"
         ],
         "changelog": "https://github.com/SpookyServices/Flow/releases",
-        "lastUpdated": 1753854110000,
+        "lastUpdated": 1753864876000,
         "webSite": "https://flow.spookysrv.com/",
         "screenshots": {
           "phone": {
@@ -61,14 +61,55 @@
         },
         "icon": {
           "en-US": {
-            "name": "/com.spookysrv.flow/en-US/icon_6kOTWrvOz85GXevYHFJnNHyJRYnG8nLY9lMzkI_mjJI=.png",
-            "sha256": "ea43935abbcecfce465debd81c5267347c894589c6f272d8f65333908fe68c92",
-            "size": 78506
+            "name": "/com.spookysrv.flow/en-US/icon_93bpCqiy-kizDrMRCDcGTwnSWYotNVSsa2usXFNHCaU=.png",
+            "sha256": "f776e90aa8b2fa48b30eb3110837064f09d2598a2d3554ac6b6bac5c534709a5",
+            "size": 57342
           }
         },
         "preferredSigner": "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266"
       },
       "versions": {
+        "25ab2e42315d2ab4ff1f4e80b59ad49d7e956e91c8b51ff70a79c7850f8c686f": {
+          "added": 1753864876000,
+          "file": {
+            "name": "/spookyservicesflow_0.0.7.apk",
+            "sha256": "25ab2e42315d2ab4ff1f4e80b59ad49d7e956e91c8b51ff70a79c7850f8c686f",
+            "size": 24622836
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.7",
+            "versionCode": 9,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.spookysrv.flow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "App itself is not open source": {},
+            "NonFreeAssets": {},
+            "NonFreeNet": {},
+            "TetheredNet": {}
+          }
+        },
         "24a4084870116a8fcda0fe1cae3ccd27797891ae39cc30db77ff319dba6c8a13": {
           "added": 1753854110000,
           "file": {

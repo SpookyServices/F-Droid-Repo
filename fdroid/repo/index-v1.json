@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1753854114000,
+    "timestamp": 1753864880000,
     "version": 20002,
     "name": "Spooky Services & Partners",
     "icon": "icon.png",
@@ -24,8 +24,8 @@
         "Connectivity"
       ],
       "changelog": "https://github.com/SpookyServices/Flow/releases",
-      "suggestedVersionName": "0.0.6",
-      "suggestedVersionCode": "8",
+      "suggestedVersionName": "0.0.7",
+      "suggestedVersionCode": "9",
       "description": "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n",
       "license": "Unknown",
       "name": "Flow",
@@ -33,21 +33,51 @@
       "webSite": "https://flow.spookysrv.com/",
       "added": 1753676541000,
       "packageName": "com.spookysrv.flow",
-      "lastUpdated": 1753854110000,
+      "lastUpdated": 1753864876000,
       "localized": {
         "en-US": {
-          "icon": "icon_6kOTWrvOz85GXevYHFJnNHyJRYnG8nLY9lMzkI_mjJI=.png",
+          "icon": "icon_93bpCqiy-kizDrMRCDcGTwnSWYotNVSsa2usXFNHCaU=.png",
           "phoneScreenshots": [
             "1.jpg",
             "2.jpg"
           ],
-          "whatsNew": "- Fix dart:html so other platforms can build again\n- Fix invisible Cupertino back button on navbar in Light Mode\n- Fix random logouts (Changing theme template will cause startingPage to override as main page)\n\nv0.0.4 and 0.0.5 are web-only, no versions were missed"
+          "whatsNew": "### This is a critical update that affects core functionalities on all platforms! Please update ASAP.\n- Fix web message sending not clearing messages & not auto updating\n- set Theme Mode according to preference (defaulted to system after restart previously)"
         }
       }
     }
   ],
   "packages": {
     "com.spookysrv.flow": [
+      {
+        "added": 1753864876000,
+        "apkName": "spookyservicesflow_0.0.7.apk",
+        "hash": "25ab2e42315d2ab4ff1f4e80b59ad49d7e956e91c8b51ff70a79c7850f8c686f",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.spookysrv.flow",
+        "sig": "5f6c3d51483d6397d52a691cc26283af",
+        "signer": "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266",
+        "size": 24622836,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.spookysrv.flow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 9,
+        "versionName": "0.0.7"
+      },
       {
         "added": 1753854110000,
         "apkName": "spookyservicesflow_0.0.6.apk",
