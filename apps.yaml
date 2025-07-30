@@ -16,6 +16,7 @@ spookyservicesflow:
     - App itself is not open source
     - NonFreeNet
     - NonFreeAssets
+    - TetheredNet
   is_open_source: "false"
 
   
