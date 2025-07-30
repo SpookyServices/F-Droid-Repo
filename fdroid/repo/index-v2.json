@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1753847891000,
+    "timestamp": 1753849207000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -106,7 +106,8 @@
           "antiFeatures": {
             "App itself is not open source": {},
             "NonFreeAssets": {},
-            "NonFreeNet": {}
+            "NonFreeNet": {},
+            "TetheredNet": {}
           }
         },
         "f7a13e7a5ce9455dfe26e881d4bcf426c89c322351bd199150200a239a2a286e": {
@@ -146,7 +147,8 @@
           "antiFeatures": {
             "App itself is not open source": {},
             "NonFreeAssets": {},
-            "NonFreeNet": {}
+            "NonFreeNet": {},
+            "TetheredNet": {}
           }
         },
         "0688785a5cabdfa855ae64fea4bedaaab40fc29069ca8563910b267954d77424": {
@@ -186,7 +188,8 @@
           "antiFeatures": {
             "App itself is not open source": {},
             "NonFreeAssets": {},
-            "NonFreeNet": {}
+            "NonFreeNet": {},
+            "TetheredNet": {}
           }
         }
       }

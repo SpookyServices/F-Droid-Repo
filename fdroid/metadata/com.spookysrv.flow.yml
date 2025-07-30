@@ -2,6 +2,7 @@ AntiFeatures:
     - App itself is not open source
     - NonFreeNet
     - NonFreeAssets
+    - TetheredNet
 AuthorName: Spooky Services
 Categories:
     - Connectivity
