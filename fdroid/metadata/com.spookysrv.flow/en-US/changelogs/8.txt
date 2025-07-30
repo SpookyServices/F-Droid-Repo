@@ -1,0 +1,5 @@
+- Fix dart:html so other platforms can build again
+- Fix invisible Cupertino back button on navbar in Light Mode
+- Fix random logouts (Changing theme template will cause startingPage to override as main page)
+
+v0.0.4 and 0.0.5 are web-only, no versions were missed
