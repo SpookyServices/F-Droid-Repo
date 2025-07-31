@@ -7,8 +7,8 @@ AuthorName: Spooky Services
 Categories:
     - Connectivity
 Changelog: https://github.com/SpookyServices/Flow/releases
-CurrentVersion: 0.0.7
-CurrentVersionCode: 9
+CurrentVersion: 0.0.8
+CurrentVersionCode: 11
 Description: "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n"
 IssueTracker: ""
 Name: Flow
