@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1754021366000,
+    "timestamp": 1754063863000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -31,7 +31,7 @@
           "Connectivity"
         ],
         "changelog": "https://github.com/SpookyServices/Flow/releases",
-        "lastUpdated": 1753955168000,
+        "lastUpdated": 1754063854000,
         "webSite": "https://flow.spookysrv.com/",
         "screenshots": {
           "phone": {
@@ -69,6 +69,47 @@
         "preferredSigner": "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266"
       },
       "versions": {
+        "f6147f6f6125f41a4188880b9c17c6aa070eaf3c3f639d9b93a1aaec68e1712f": {
+          "added": 1754063854000,
+          "file": {
+            "name": "/spookyservicesflow_0.0.11.apk",
+            "sha256": "f6147f6f6125f41a4188880b9c17c6aa070eaf3c3f639d9b93a1aaec68e1712f",
+            "size": 24673332
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.11",
+            "versionCode": 16,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "3f30cd8d9d4235051bc0faa8edb2213c151ddbf167ababa514b0d0a52df89266"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.spookysrv.flow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "App itself is not open source": {},
+            "NonFreeAssets": {},
+            "NonFreeNet": {},
+            "TetheredNet": {}
+          }
+        },
         "ff688615b2b53fa5d66760dcc5e0bb0a5eb1a959599edef077ec89bad4d68958": {
           "added": 1753955168000,
           "file": {

@@ -1,0 +1,4 @@
+- Added "Share to Flow" functionality
+On Android, simply open the share menu of any text or link, and select "Flow by Spooky Services," and that text/link will be sent into your flow room! You will return to your current application automatically.
+
+v0.0.9 and 0.0.10 are web-only, no versions were missed
