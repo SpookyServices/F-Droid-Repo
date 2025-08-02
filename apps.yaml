@@ -20,7 +20,7 @@ spookyservicesflow:
   is_open_source: "false"
 
 
-  hkbuscordova:
+hkbuscordova:
   git: https://github.com/SpookyKipper/hkbus-web-mobile
   name: "HKBus (Cordova)"
   author: chunlaw (Modified & built for Cordova by Spooky Kipper)
