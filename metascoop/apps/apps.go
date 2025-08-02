@@ -32,6 +32,7 @@ type AppInfo struct {
 	ReleaseDescription string
 
 	License string
+	Changelog string `yaml:"changelog"`
 }
 
 func (a AppInfo) Name() string {
