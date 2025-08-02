@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1754151566000,
+    "timestamp": 1754151913000,
     "version": 20002,
     "name": "Spooky Services & Partners",
     "icon": "icon.png",
@@ -23,7 +23,7 @@
       "categories": [
         "Connectivity"
       ],
-      "changelog": "https://github.com/SpookyServices/Flow/releases",
+      "changelog": "https://changelog.flow.spookysrv.com/",
       "suggestedVersionName": "0.0.11",
       "suggestedVersionCode": "16",
       "description": "Flow allows you to send notes and links between your devices seamlessly. This is still in development and it is not production ready. \n",

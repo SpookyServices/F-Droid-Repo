@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid.spookysrv.com/fdroid/repo",
-    "timestamp": 1754151566000,
+    "timestamp": 1754151913000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -30,7 +30,7 @@
         "categories": [
           "Connectivity"
         ],
-        "changelog": "https://github.com/SpookyServices/Flow/releases",
+        "changelog": "https://changelog.flow.spookysrv.com/",
         "lastUpdated": 1754063854000,
         "webSite": "https://flow.spookysrv.com/",
         "screenshots": {
