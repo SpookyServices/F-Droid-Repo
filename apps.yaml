@@ -18,26 +18,8 @@ spookyservicesflow:
     - NonFreeAssets
     - TetheredNet
   is_open_source: "false"
+  changelog: "https://changelog.flow.spookysrv.com/"
 
-
-hkbuscordova:
-  git: https://github.com/SpookyKipper/hkbus-web-mobile
-  name: "HKBus (Cordova)"
-  author: chunlaw (Modified & built for Cordova by Spooky Kipper)
-  website: https://hkbusapp.spooky.hk/zh
-  description: |
-    Unofficial Cordova wrapper for HKBus.app by Spooky Kipper. This app is not affiliated with the original HKBus.app and chunlaw (GitHub username), the developer
-
-  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
-  # you can use any name here, but you should look at the existing categories first
-  categories: 
-    - Public Transport Map & Timetable
-
-# https://f-droid.org/docs/Anti-Features/
-  anti_features:
-    - NonFreeNet
-    - TetheredNet
-  is_open_source: "true"
 
   
 
